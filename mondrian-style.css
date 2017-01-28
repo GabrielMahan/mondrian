@@ -1,0 +1,101 @@
+* {
+  min-height: 1em;
+  /*border: 3px solid red;*/
+}
+
+body {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#mondrian {
+  background-color: black;
+  width: 100%;
+  padding: 2%;
+}
+
+#mondrian div {
+  display: inline-block;
+}
+
+#mondrian > div:first-child {
+  height: 70vh;
+  width: 100%;
+}
+
+#mondrian > div:last-child {
+  height: 30vh;
+  width: 100%;
+}
+
+.left-col {
+  width: 28%;
+  display: inline-block;
+}
+
+.right-col {
+  width: 70%;
+  float: right;
+}
+
+
+.left-col.top {
+  height: 95%;
+}
+
+.right-col.top {
+  display: inline-block;
+  float: right;
+  height: 95%;
+  background-color: red;
+}
+
+ /*White columns */
+.left-col.top div:first-child {
+  height: 40%;
+  width: 100%;
+  background-color: white;
+}
+
+.left-col.top div:last-child {
+  height: 55%;
+  width: 100%;
+  background-color: white;
+  margin-top: 10%;
+}
+
+.left-col.bottom {
+  background-color: blue;
+  height: 100%;
+}
+
+.right-col.bottom {
+  height: 100%;
+}
+
+.right-col.bottom .white  {
+  width: 40%;
+  float: left;
+  background-color: white;
+  height: 100%;
+}
+
+.bot-cont {
+  width: 55%;
+  height: 100%;
+  float: right;
+}
+
+.bot-cont div {
+  width: 100%;
+  height: 45%;
+}
+
+.bot-cont div:last-child {
+  background-color: yellow;
+  margin-top: 5%;
+}
+
+.bot-cont div:first-child {
+  background-color: white;
+}
